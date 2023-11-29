@@ -1,1 +1,0 @@
-Proyecto Taller de Computación - ICC491 
