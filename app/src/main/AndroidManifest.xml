@@ -44,6 +44,11 @@
             android:name=".LuminosityActivity"
             android:exported="true">
         </activity>
+        <activity
+            android:name=".PostLoginActivity"
+            android:label="PostLoginActivity">
+        </activity>
+
     </application>
 
 </manifest>

@@ -1,5 +1,6 @@
 package com.example.nuevaapp12
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -70,7 +71,12 @@ class LoginActivity : AppCompatActivity() {
                             tvErrorMessage.visibility = View.GONE
                             // Muestra "Conectado"
                             Toast.makeText(this@LoginActivity, "Conectado", Toast.LENGTH_SHORT).show()
-                            // Resto de tu código
+
+                            // Iniciar la nueva actividad
+                            val intent = Intent(this@LoginActivity, PostLoginActivity::class.java)
+                            startActivity(intent)
+                            finish() // Cierra la actividad actual para que no pueda regresar presionando el botón de retroceso
+
                         } else {
                             // Usuario o contraseña incorrectos
                             tvErrorMessage.text = "Usuario o contraseña incorrectos"
