@@ -40,6 +40,10 @@
             android:exported="true">
             <!-- Intent filter and other activity configuration here -->
         </activity>
+        <activity
+            android:name=".LuminosityActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

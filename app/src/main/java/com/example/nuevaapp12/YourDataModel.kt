@@ -1,6 +1,6 @@
 package com.example.nuevaapp12
 
 data class YourDataModel(
-    val distance_m: Any,
+    val distance: Double,
     val unit: String
 )

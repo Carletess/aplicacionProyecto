@@ -27,4 +27,10 @@
         android:layout_height="wrap_content"
         android:text="Five Latest Data" />
 
+    <Button
+        android:id="@+id/btnLuminosity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Luminosity Data" />
+
 </LinearLayout>

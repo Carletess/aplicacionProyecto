@@ -7,4 +7,7 @@ import kotlin.Any
 interface ApiService {
     @GET("/data")
     fun getLatestData(): Call<List<YourDataModel>> // Usando Any como tipo genérico
+
+    @GET("/dataluz")
+    fun getDataLuz(): Call<List<YourDataLuz>>
 }

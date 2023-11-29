@@ -8,12 +8,30 @@
     tools:context=".FiveLatestDataActivity">
 
     <TextView
+        android:id="@+id/luminosityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luminosity Data"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+
+    <TextView
         android:id="@+id/tvData1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Data 1"
         android:textSize="18sp"
         android:textColor="@android:color/white" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
 
     <TextView
         android:id="@+id/tvData2"
@@ -23,6 +41,11 @@
         android:textSize="18sp"
         android:textColor="@android:color/white" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+
     <TextView
         android:id="@+id/tvData3"
         android:layout_width="wrap_content"
@@ -31,6 +54,11 @@
         android:textSize="18sp"
         android:textColor="@android:color/white" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+
     <TextView
         android:id="@+id/tvData4"
         android:layout_width="wrap_content"
@@ -38,6 +66,10 @@
         android:text="Data 4"
         android:textSize="18sp"
         android:textColor="@android:color/white" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
 
     <TextView
         android:id="@+id/tvData5"

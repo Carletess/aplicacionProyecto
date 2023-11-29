@@ -14,6 +14,7 @@ class AuthSelectionActivity : AppCompatActivity() {
         val btnLogin = findViewById<Button>(R.id.btnLogin)
         val btnRegister = findViewById<Button>(R.id.btnRegister)
         val btnFiveLatestData = findViewById<Button>(R.id.btnFiveLatestData)
+        val btnLuminosityActivity = findViewById<Button>(R.id.btnLuminosity)
 
         btnLogin.setOnClickListener {
             // Redirige a la pantalla de inicio de sesión
@@ -30,6 +31,11 @@ class AuthSelectionActivity : AppCompatActivity() {
         btnFiveLatestData.setOnClickListener {
             // Redirige a la pantalla five_latest_data.xml
             val intent = Intent(this, FiveLatestDataActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnLuminosityActivity.setOnClickListener {
+            val intent = Intent(this, LuminosityActivity::class.java)
             startActivity(intent)
         }
     }
