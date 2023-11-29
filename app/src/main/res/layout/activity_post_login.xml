@@ -21,4 +21,10 @@
         android:layout_height="wrap_content"
         android:text="Luminosity Data" />
 
+    <Button
+        android:id="@+id/btnWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafico en tiempo real" />
+
 </LinearLayout>

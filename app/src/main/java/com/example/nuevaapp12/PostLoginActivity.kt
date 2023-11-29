@@ -13,6 +13,7 @@ class PostLoginActivity : AppCompatActivity() {
 
         val btnFiveLatestData = findViewById<Button>(R.id.btnFiveLatestData2)
         val btnLuminosityActivity = findViewById<Button>(R.id.btnLuminosity2)
+        val btnWebViewActivity = findViewById<Button>(R.id.btnWebView)
 
         btnFiveLatestData.setOnClickListener {
             // Redirige a la pantalla five_latest_data.xml
@@ -22,6 +23,11 @@ class PostLoginActivity : AppCompatActivity() {
 
         btnLuminosityActivity.setOnClickListener {
             val intent = Intent(this, LuminosityActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnWebViewActivity.setOnClickListener {
+            val intent = Intent(this, WebViewActivity::class.java)
             startActivity(intent)
         }
     }
