@@ -6,25 +6,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp"
     tools:context=".PostLoginActivity">
+
+    <TextView
+        android:id="@+id/tvBienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Bienvenido, ¿Qué dato desea ver?"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
 
     <Button
         android:id="@+id/btnFiveLatestData2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Five Latest Data" />
+        android:text="Ultimos datos de distancia" />
 
     <Button
         android:id="@+id/btnLuminosity2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Luminosity Data" />
+        android:text="Dato de luminosidad" />
 
     <Button
         android:id="@+id/btnWebView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Grafico en tiempo real" />
+        android:text="Grafico en tiempo real de acelerómetro y temperatura" />
 
 </LinearLayout>

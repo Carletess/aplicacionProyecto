@@ -4,27 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
     android:padding="16dp"
     tools:context=".FiveLatestDataActivity">
-
-    <TextView
-        android:id="@+id/luminosityTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Luminosity Data"
-        android:textSize="18sp"
-        android:textColor="@android:color/white" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#000" />
 
     <TextView
         android:id="@+id/tvData1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data 1"
+        android:text="Ultimo dato"
         android:textSize="18sp"
         android:textColor="@android:color/white" />
 
@@ -37,7 +25,7 @@
         android:id="@+id/tvData2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data 2"
+        android:text="Dato 2"
         android:textSize="18sp"
         android:textColor="@android:color/white" />
 
@@ -50,7 +38,7 @@
         android:id="@+id/tvData3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data 3"
+        android:text="Dato 3"
         android:textSize="18sp"
         android:textColor="@android:color/white" />
 
@@ -63,7 +51,7 @@
         android:id="@+id/tvData4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data 4"
+        android:text="Dato 4"
         android:textSize="18sp"
         android:textColor="@android:color/white" />
     <View
@@ -75,7 +63,7 @@
         android:id="@+id/tvData5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Data 5"
+        android:text="Dato 5"
         android:textSize="18sp"
         android:textColor="@android:color/white" />
 
